@@ -42,7 +42,15 @@ export default function Banner() {
             </div>
             <div className="lg:col-span-6">
               <div className="home-image text-center">
-                <img src="img/home-banner.png" title="Banner" alt="Banner" />
+                <img
+                  src="img/home-banner.png"
+                  title="Banner"
+                  alt="Banner"
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "500px",
+                  }}
+                />
               </div>
             </div>
           </div>
