@@ -1,5 +1,5 @@
 /*--------------------
-* Service Section
+* Education Section
 ----------------------*/
 function Service(props) {
   return (
@@ -23,7 +23,7 @@ function Service(props) {
 }
 
 /*--------------------
-* Service List Section
+* Education List Section
 ----------------------*/
 export default function ServiceList() {
   const service_list = [
@@ -48,8 +48,8 @@ export default function ServiceList() {
     <>
       <section
         data-scroll-data="1"
-        id="services"
-        className="section services-section bg-gray"
+        id="education"
+        className="section education-section bg-gray"
         style={{
           backgroundImage: "url(img/effect/bg-effect-1.png)",
           backgroundRepeat: "no-repeat",
