@@ -206,7 +206,7 @@ export default function Work() {
   return (
     <>
       <section
-        data-scroll-data="3"
+        data-scroll-data="4"
         id="portfolio"
         className="section bg-orange-50"
       >

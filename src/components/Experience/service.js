@@ -28,7 +28,7 @@ function Service(props) {
 export default function ServiceList() {
   const service_list = [
     {
-      id: { main: "bg-1", icon: "../../../public/img/neuLogo.jpeg" },
+      id: { main: "bg-2", icon: "../../../public/img/neuLogo.jpeg" },
       title: "Northeasetrn University, Boston, MA",
       subtitle: <i>President, Husky Systers Code</i>,
       tenure: "April 2023 - Present",

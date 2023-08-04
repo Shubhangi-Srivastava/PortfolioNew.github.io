@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <section
-        data-scroll-data="4"
+        data-scroll-data="5"
         id="contactus"
         className="section contactus-section bg-slate-900"
         style={{
