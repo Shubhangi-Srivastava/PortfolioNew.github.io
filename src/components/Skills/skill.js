@@ -53,7 +53,7 @@ export default function SkillList() {
               </div>
             </div>
             <div className="lg:col-span-6 text-center pt-[40px] md:pt-0">
-              <img className="mx-[auto]" src="img/skills.png" title="" alt="" />
+              <img className="mx-[auto]" src="" title="" alt="" />
             </div>
           </div>
         </div>

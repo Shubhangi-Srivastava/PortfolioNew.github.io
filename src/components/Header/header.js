@@ -22,9 +22,10 @@ export default function Header() {
   const header_menus = [
     { id: 0, name: "Home", scroll_link: "home" },
     { id: 1, name: "Education", scroll_link: "education" },
-    { id: 2, name: "Skills", scroll_link: "skill" },
-    { id: 3, name: "Portfolio", scroll_link: "portfolio" },
-    { id: 4, name: "Contact", scroll_link: "contactus" },
+    { id: 2, name: "Experience", scroll_link: "workex" },
+    { id: 3, name: "Skills", scroll_link: "skill" },
+    { id: 4, name: "Portfolio", scroll_link: "portfolio" },
+    { id: 5, name: "Contact", scroll_link: "contactus" },
   ];
   return (
     <>

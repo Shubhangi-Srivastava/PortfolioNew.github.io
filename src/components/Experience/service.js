@@ -69,8 +69,8 @@ export default function ServiceList() {
     <>
       <section
         data-scroll-data="1"
-        id="education"
-        className="section education-section bg-gray"
+        id="workex"
+        className="section workex-section bg-gray"
         style={{
           backgroundImage: "url(img/effect/bg-effect-1.png)",
           backgroundRepeat: "no-repeat",
@@ -81,7 +81,7 @@ export default function ServiceList() {
           <div className="grid section-heading">
             <div className="lg:col-span-6 text-center mx-auto">
               <h3>
-                <span>My Work Experience</span>
+                <span>Work Experience</span>
               </h3>
             </div>
           </div>
