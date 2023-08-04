@@ -68,7 +68,7 @@ export default function ServiceList() {
   return (
     <>
       <section
-        data-scroll-data="1"
+        data-scroll-data="2"
         id="workex"
         className="section workex-section bg-gray"
         style={{
