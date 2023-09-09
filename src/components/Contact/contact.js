@@ -95,14 +95,14 @@ export default function Contact() {
             </div>
             <div className="col-span-12 lg:col-span-6 flex">
               <div className="lg:max-w-[410px] w-full lg:ml-auto pt-[50px] lg:pt-0">
-                <div className="pb-10">
+                {/* <div className="pb-10">
                   <img
                     className="w-full"
                     src="img/contact-bg.png"
                     title=""
                     alt=""
                   />
-                </div>
+                </div> */}
                 <ul className="contact-infos">
                   <li>
                     <div className="icon bg-1">
@@ -114,7 +114,11 @@ export default function Contact() {
                     </div> */}
                     <div className="col">
                       <h5>Mail</h5>
-                      <p>srivastava.sh@northeastern.edu</p>
+                      <p>
+                        <a href="mailto:srivastava.sh@northeastern.edu">
+                          srivastava.sh@northeastern.edu
+                        </a>
+                      </p>
                     </div>
                   </li>
                   {/* <li>
@@ -134,6 +138,19 @@ export default function Contact() {
                       <h5>LinkedIn</h5>
                       <p>
                         <a href="https://www.linkedin.com/in/srivastava-shubhangi/">
+                          click here
+                        </a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="icon bg-gradient-to-br from-yellow-400 via-pink-600 to-indigo-600">
+                      <i className="fab fa-instagram"></i>
+                    </div>
+                    <div className="col">
+                      <h5>Instagram</h5>
+                      <p>
+                        <a href="https://www.instagram.com/shubhangi_srivastava/?next=%2F">
                           click here
                         </a>
                       </p>
