@@ -24,9 +24,10 @@ export default function Krinky() {
         <EducationList />
         <WorkExperience />
         <SkillList />
-        <Intrested />
+
         <Work />
         <Testimonial />
+        <Intrested />
         <Contact />
       </main>
       <Footer />
