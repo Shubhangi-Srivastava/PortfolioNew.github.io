@@ -56,153 +56,172 @@ function Proejct(props) {
 ----------------------*/
 
 export default function Work() {
-  const [showModal, setShowModal] = useState(0);
-  const closePopup = () => {
-    setShowModal(0);
+  // const [showModal, setShowModal] = useState(0);
+  // const closePopup = () => {
+  //   setShowModal(0);
+  // };
+  const redirectToGitHubRepo = (githubRepoUrl) => {
+    window.location.href = githubRepoUrl;
   };
-
   const projectDetails = [
     {
-      title: "Healthcare Benefits for the State of Massachusetts",
-      description:
-        "The Mass Health application majorly focuses on granting health benefits like ACA, ABD Blind, ABD, ACAP, CWD, WWD, Medicare to the citizens of Massachusetts.Funding is shared by federal and state governments, with eligibility determined based on eligibility criteria of the citizen.",
-      subDescription:
-        "The citizen will apply for Healthcare Benefits by approaching the Application Registrar who would start his application registration followed by Data Collection, Eligibility Determination and finally, the notice of Authorization confirming the client about the benefit that has been granted to him based on his Eligibility Criteria.",
-      images: [
-        "img/project-1.jpg",
-        "img/project-3.jpg",
-        "img/project-4.jpg",
-        "img/project-2.jpg",
-      ],
-      details: [
-        {
-          title: "Type",
-          description: "Backend Project",
-        },
-        {
-          title: "Langages",
-          description: "Java, JSwing, MySQL",
-        },
-        {
-          title: "Platform",
-          description: "NetBeans",
-        },
-        {
-          title: "Country",
-          description: "USA",
-        },
-        {
-          title: "GitHub Link",
-          description: "www.example.com",
-        },
-      ],
+      // title: "Healthcare Benefits for the State of Massachusetts",
+      // description:
+      //   "This application provides comprehensive and uniform medical services...",
+      githubRepoUrl:
+        "https://github.com/Unnati-Kolhe/Healthcare-Benefits-for-the-State-of-Massachusetts",
     },
     {
-      title: "Online Restaurant Delivery Management System",
-      description:
-        "The technology stack leveraged the capabilities of Java AWT and Swing for crafting intuitive and user-friendly interfaces, combined with DB4OUtil for efficient data management.",
-      subDescription:
-        "Customers can easily browse menus and track orders. Restaurant managers get tools for menu and order management, while delivery staff have a system for pickups and location updates. Using DB4OUtil for database management and ArrayLists for data storage, our application ensures real-time updates for all users. Integrated feedback and payment systems, along with an analytics dashboard for managers, elevate the user experience and operational efficiency.",
-      images: [
-        "img/project-2.jpg",
-        "img/project-3.jpg",
-        "img/project-4.jpg",
-        "img/project-1.jpg",
-      ],
-      details: [
-        {
-          title: "Type",
-          description: "Website",
-        },
-        {
-          title: "Langages",
-          description: "",
-        },
-        {
-          title: "Platform",
-          description: "WordPress",
-        },
-        {
-          title: "Country",
-          description: "USA",
-        },
-        {
-          title: "Live URL",
-          description: "www.example.com",
-        },
-      ],
-    },
-    {
-      title: "Website Design for Marketing Agency Startup 03",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      subDescription:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      images: [
-        "img/project-3.jpg",
-        "img/project-2.jpg",
-        "img/project-4.jpg",
-        "img/project-1.jpg",
-      ],
-      details: [
-        {
-          title: "Type",
-          description: "Website",
-        },
-        {
-          title: "Langages",
-          description: "",
-        },
-        {
-          title: "Platform",
-          description: "WordPress",
-        },
-        {
-          title: "Country",
-          description: "USA",
-        },
-        {
-          title: "Live URL",
-          description: "www.example.com",
-        },
-      ],
-    },
-    {
-      title: "Website Design for Marketing Agency Startup 04",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      subDescription:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      images: [
-        "img/project-4.jpg",
-        "img/project-2.jpg",
-        "img/project-3.jpg",
-        "img/project-1.jpg",
-      ],
-      details: [
-        {
-          title: "Type",
-          description: "Website",
-        },
-        {
-          title: "Langages",
-          description: "",
-        },
-        {
-          title: "Platform",
-          description: "WordPress",
-        },
-        {
-          title: "Country",
-          description: "USA",
-        },
-        {
-          title: "Live URL",
-          description: "www.example.com",
-        },
-      ],
+      // title: "Online Restaurant Delivery Management System",
+      // description:
+      //   "Developed an online food delivery application catering to three primary user types...",
+      githubRepoUrl:
+        "https://github.com/Shubhangi-Srivastava/Online_Restaurant_Delivery_System",
     },
   ];
+
+  // const projectDetails = [
+  //   {
+  //     title: "Healthcare Benefits for the State of Massachusetts",
+  //     description:
+  //       "The Mass Health application majorly focuses on granting health benefits like ACA, ABD Blind, ABD, ACAP, CWD, WWD, Medicare to the citizens of Massachusetts.Funding is shared by federal and state governments, with eligibility determined based on eligibility criteria of the citizen.",
+  //     subDescription:
+  //       "The citizen will apply for Healthcare Benefits by approaching the Application Registrar who would start his application registration followed by Data Collection, Eligibility Determination and finally, the notice of Authorization confirming the client about the benefit that has been granted to him based on his Eligibility Criteria.",
+  //     images: [
+  //       "img/project-1.jpg",
+  //       "img/project-3.jpg",
+  //       "img/project-4.jpg",
+  //       "img/project-2.jpg",
+  //     ],
+  //     details: [
+  //       {
+  //         title: "Type",
+  //         description: "Backend Project",
+  //       },
+  //       {
+  //         title: "Langages",
+  //         description: "Java, JSwing, MySQL",
+  //       },
+  //       {
+  //         title: "Platform",
+  //         description: "NetBeans",
+  //       },
+  //       {
+  //         title: "Country",
+  //         description: "USA",
+  //       },
+  //       {
+  //         title: "GitHub Link",
+  //         description: "www.example.com",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title: "Online Restaurant Delivery Management System",
+  //     description:
+  //       "The technology stack leveraged the capabilities of Java AWT and Swing for crafting intuitive and user-friendly interfaces, combined with DB4OUtil for efficient data management.",
+  //     subDescription:
+  //       "Customers can easily browse menus and track orders. Restaurant managers get tools for menu and order management, while delivery staff have a system for pickups and location updates. Using DB4OUtil for database management and ArrayLists for data storage, our application ensures real-time updates for all users. Integrated feedback and payment systems, along with an analytics dashboard for managers, elevate the user experience and operational efficiency.",
+  //     images: [
+  //       "img/project-2.jpg",
+  //       "img/project-3.jpg",
+  //       "img/project-4.jpg",
+  //       "img/project-1.jpg",
+  //     ],
+  //     details: [
+  //       {
+  //         title: "Type",
+  //         description: "Website",
+  //       },
+  //       {
+  //         title: "Langages",
+  //         description: "",
+  //       },
+  //       {
+  //         title: "Platform",
+  //         description: "WordPress",
+  //       },
+  //       {
+  //         title: "Country",
+  //         description: "USA",
+  //       },
+  //       {
+  //         title: "Live URL",
+  //         description: "www.example.com",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title: "Website Design for Marketing Agency Startup 03",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  //     subDescription:
+  //       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //     images: [
+  //       "img/project-3.jpg",
+  //       "img/project-2.jpg",
+  //       "img/project-4.jpg",
+  //       "img/project-1.jpg",
+  //     ],
+  //     details: [
+  //       {
+  //         title: "Type",
+  //         description: "Website",
+  //       },
+  //       {
+  //         title: "Langages",
+  //         description: "",
+  //       },
+  //       {
+  //         title: "Platform",
+  //         description: "WordPress",
+  //       },
+  //       {
+  //         title: "Country",
+  //         description: "USA",
+  //       },
+  //       {
+  //         title: "Live URL",
+  //         description: "www.example.com",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title: "Website Design for Marketing Agency Startup 04",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  //     subDescription:
+  //       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //     images: [
+  //       "img/project-4.jpg",
+  //       "img/project-2.jpg",
+  //       "img/project-3.jpg",
+  //       "img/project-1.jpg",
+  //     ],
+  //     details: [
+  //       {
+  //         title: "Type",
+  //         description: "Website",
+  //       },
+  //       {
+  //         title: "Langages",
+  //         description: "",
+  //       },
+  //       {
+  //         title: "Platform",
+  //         description: "WordPress",
+  //       },
+  //       {
+  //         title: "Country",
+  //         description: "USA",
+  //       },
+  //       {
+  //         title: "Live URL",
+  //         description: "www.example.com",
+  //       },
+  //     ],
+  //   },
+  // ];
   return (
     <>
       <section
@@ -246,7 +265,9 @@ export default function Work() {
                   <div className="btn-bar">
                     <div
                       className="px-btn px-btn-theme px_modal"
-                      onClick={() => setShowModal(1)}
+                      onClick={() =>
+                        redirectToGitHubRepo(projectDetails[0].githubRepoUrl)
+                      } //setShowModal(1)
                     >
                       View Project{" "}
                     </div>
@@ -277,7 +298,9 @@ export default function Work() {
                   <div className="btn-bar">
                     <div
                       className="px-btn px-btn-theme px_modal"
-                      onClick={() => setShowModal(2)}
+                      onClick={() =>
+                        redirectToGitHubRepo(projectDetails[1].githubRepoUrl)
+                      }
                     >
                       View Project{" "}
                     </div>
@@ -308,7 +331,7 @@ export default function Work() {
                   <div className="btn-bar">
                     <div
                       className="px-btn px-btn-theme px_modal"
-                      onClick={() => setShowModal(3)}
+                      // onClick={() => setShowModal(3)}
                     >
                       View Project{" "}
                     </div>
@@ -351,14 +374,14 @@ export default function Work() {
         </div>
       </section>
 
-      {showModal ? (
+      {/* {showModal ? (
         <>
           <Proejct
             closePopup={closePopup}
             projectDetails={projectDetails[showModal - 1]}
           ></Proejct>
         </>
-      ) : null}
+      ) : null} */}
     </>
   );
 }
