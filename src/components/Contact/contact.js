@@ -16,7 +16,7 @@ const ContactUs = () => {
         "service_i4h00r8",
         "template_2li6k88",
         form.current,
-        "3ktv8L9NzzPqcdYRK"
+        "3ktv8L9NzzPqcdYRK" //github pages pe host karo.
       )
       .then(
         (result) => {
