@@ -1,6 +1,7 @@
 /*--------------------
 * Education Section
 ----------------------*/
+
 function Service(props) {
   return (
     <>
@@ -28,7 +29,7 @@ function Service(props) {
 export default function ServiceList() {
   const service_list = [
     {
-      id: { main: "bg-1", icon: "../../../public/img/neuLogo.jpeg" },
+      id: { main: "bg-1", icon: "/img/neuLogo.jpeg" },
       title: "Northeastern University, College of Engineering",
       subtitle: <i>Masters in Computer Software Engineering</i>,
       graduation: "Expected Graduation: December 2023",
@@ -36,7 +37,7 @@ export default function ServiceList() {
         "Related Courses: Application Engineering and Development, Database Management and database Design, Object Oriented Design and Principles, Web Design / User Experience Engineering, UIUX Design and Testing, Agile Development and Methodologies, Managerial Communications",
     },
     {
-      id: { main: "bg-2", icon: "fas fa-laptop" },
+      id: { main: "bg-2", icon: "img/mit_puneLogo.png" },
       title: "Pune University, Maharashtra Institute of Technology",
       subtitle: <i>Bachelors in Computer Sciences</i>,
       graduation: "Graduation: July 2019",

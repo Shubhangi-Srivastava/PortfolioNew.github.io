@@ -35,7 +35,7 @@ export default function Banner() {
                 </p>
                 <div className="pt-[10px]">
                   <Link className="px-btn px-btn-theme" to="contactus">
-                    Let's Start
+                    Let's connect
                   </Link>
                 </div>
               </div>

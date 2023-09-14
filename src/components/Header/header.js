@@ -60,7 +60,7 @@ export default function Header() {
               })}
             </ul>
           </div>
-          <div className="ms-auto hidden lg:flex">
+          {/* <div className="ms-auto hidden lg:flex">
             <Link
               className="px-btn px-btn-theme"
               data-scroll-nav="4"
@@ -68,7 +68,7 @@ export default function Header() {
             >
               Contact Now
             </Link>
-          </div>
+          </div> */}
         </div>
       </header>
     </>
