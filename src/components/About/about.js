@@ -30,27 +30,21 @@ export default function About() {
                 challenge. Whether it's in the classroom or leading a club
                 project, I'm all about innovation and making things happen!
               </p>
-              {/* <div className="grid grid-cols-12 pt-5">
-                <div className="col-span-6 sm:col-span-4">
-                  <h5 className="text-[26px] text-orange-600 font-[600]">
-                    285+
-                  </h5>
-                  <span>Projet Completed</span>
-                </div>
-                <div className="col-span-6 sm:col-span-4">
-                  <h5 className="text-[26px] text-orange-600 font-[600]">
-                    190+
-                  </h5>
-                  <span>Happy Clients</span>
-                </div>
-              </div> */}
               <div className="pt-6">
-                <Link className="px-btn px-btn-theme mr-4" to="contactus">
+                {/* <Link className="px-btn px-btn-theme mr-4" to="contactus">
                   Contact Me
-                </Link>
-                <Link className="px-btn px-btn-dark" to="portfolio">
+                </Link> */}
+                <a
+                  href="Shubhangi_Srivastava_Resume.pdf"
+                  className="px-btn px-btn-theme mr-4"
+                  download="Shubhangi_Srivastava_Resume.pdf"
+                >
+                  <i className="fa fa-download" aria-hidden="true"></i> Download
+                  Resume
+                </a>
+                {/* <Link className="px-btn px-btn-dark" to="portfolio">
                   Portfolio
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
