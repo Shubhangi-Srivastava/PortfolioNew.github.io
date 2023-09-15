@@ -188,7 +188,9 @@ const ContactUs = () => {
                       <p>+01 123 654 8096</p>
                     </div> */}
                     <div className="col">
-                      <h5>Mail</h5>
+                      <a href="mailto:srivastava.sh@northeastern.edu">
+                        <h5>Mail</h5>
+                      </a>
                       <p>
                         <a href="mailto:srivastava.sh@northeastern.edu">
                           srivastava.sh@northeastern.edu
@@ -210,10 +212,12 @@ const ContactUs = () => {
                       <i className="fab fa-linkedin"></i>
                     </div>
                     <div className="col">
-                      <h5>LinkedIn</h5>
+                      <a href="https://www.linkedin.com/in/srivastava-shubhangi/">
+                        <h5>LinkedIn</h5>
+                      </a>
                       <p>
                         <a href="https://www.linkedin.com/in/srivastava-shubhangi/">
-                          click here
+                          srivastava-shubhangi
                         </a>
                       </p>
                     </div>
@@ -223,10 +227,42 @@ const ContactUs = () => {
                       <i className="fab fa-instagram"></i>
                     </div>
                     <div className="col">
-                      <h5>Instagram</h5>
+                      <a href="https://www.instagram.com/shubhangi_srivastava/?next=%2F">
+                        <h5>Instagram</h5>
+                      </a>
                       <p>
                         <a href="https://www.instagram.com/shubhangi_srivastava/?next=%2F">
-                          click here
+                          shubhangi_srivastava
+                        </a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="icon bg-[#ffff]">
+                      <i className="fab fa-github"></i>
+                    </div>
+                    <div className="col">
+                      <a href="https://github.com/Shubhangi-Srivastava">
+                        <h5>GitHub</h5>
+                      </a>
+                      <p>
+                        <a href="https://github.com/Shubhangi-Srivastava">
+                          Shubhangi-Srivastava
+                        </a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="icon bg-[#3b5998]">
+                      <i className="fab fa-facebook"></i>
+                    </div>
+                    <div className="col">
+                      <a href="https://www.facebook.com/shubhangi.srivastava.965/">
+                        <h5>Facebook</h5>
+                      </a>
+                      <p>
+                        <a href="https://www.facebook.com/shubhangi.srivastava.965/">
+                          shubhangi.srivastava
                         </a>
                       </p>
                     </div>
