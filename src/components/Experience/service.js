@@ -1,6 +1,7 @@
 /*--------------------
-* Education Section
-----------------------*/
+  * Education Section
+  ----------------------*/
+
 function Service(props) {
   return (
     <>
@@ -23,12 +24,12 @@ function Service(props) {
 }
 
 /*--------------------
-* Education List Section
-----------------------*/
+  * Education List Section
+  ----------------------*/
 export default function ServiceList() {
   const service_list = [
     {
-      id: { main: "bg-2", icon: "../../../public/img/neuLogo.jpeg" },
+      id: { main: "bg-2", icon: "img/neuLogo.jpeg" },
       title: "Northeasetrn University, Boston, MA",
       subtitle: <i>President, Husky Systers Code</i>,
       tenure: "April 2023 - Present",
@@ -36,7 +37,7 @@ export default function ServiceList() {
         "Curerntly leading Husky Systers Code which is a Stduent Technical Club where in we help students build their technical profile by arranging Tech workshops, Speaker Sessions, Study Groups, Hackathons and more.",
     },
     {
-      id: { main: "bg-2", icon: "fas fa-laptop" },
+      id: { main: "bg-4", icon: "img/Doble.png" },
       title: "Doble Engineering Company, Marlborough, MA",
       subtitle: <i>Software Engineer co-op</i>,
       tenure: "June 2022 - December 2022",
@@ -44,7 +45,7 @@ export default function ServiceList() {
         "Worked as a Software co-op with key skills focussed on C#, .NET",
     },
     {
-      id: { main: "bg-3", icon: "fas fa-laptop" },
+      id: { main: "bg-3", icon: "img/neuLogo.jpeg" },
       title: "Northeasetrn University, Boston, MA",
       subtitle: (
         <i>
@@ -57,7 +58,7 @@ export default function ServiceList() {
         "Worked as a TA under the Director and reviewed Java code for students and helped them with queries in code blocks.",
     },
     {
-      id: { main: "bg-6", icon: "fas fa-laptop" },
+      id: { main: "bg-6", icon: "img/Deloitte.webp" },
       title: "Deloitte, Mumbai, India",
       subtitle: <i>Full Stack Developer</i>,
       tenure: "January 2020 - June 2021",
