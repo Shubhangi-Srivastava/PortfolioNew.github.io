@@ -23,7 +23,7 @@ export default function Banner() {
                   I'm a{" "}
                   <span id="type-it">
                     <ReactTypingEffect
-                      text={["Developer", "Student Lead"]}
+                      text={["Developer", "President"]}
                       speed="100"
                       typingDelay="500"
                       eraseDelay="200"

@@ -77,6 +77,13 @@ export default function Work() {
       githubRepoUrl:
         "https://github.com/Shubhangi-Srivastava/Online_Restaurant_Delivery_System",
     },
+    {
+      // title: "Husky Systers Code Website",
+      // description:
+      //   "",
+      githubRepoUrl:
+        "https://github.com/Shubhangi-Srivastava/Husky_Systers_Code_Website",
+    },
   ];
 
   // const projectDetails = [
@@ -256,10 +263,10 @@ export default function Work() {
                   </h6> */}
                   <h4>Healthcare Benefits for the State Of Massachusetts</h4>
                   <p>
-                    This application provides comprehensive and uniform medical
-                    services that enable persons previously limited by their
-                    circumstances to receive medical care in the form of Health
-                    Care Coverage.
+                    This application provides comprehensive and uniform
+                    healthcare benefits which enable citizens to receive
+                    healthcare coverage based on their eligibilty criteria like
+                    age, income, assets, person demographics, etc.
                   </p>
                   <div className="btn-bar">
                     <div
@@ -323,14 +330,18 @@ export default function Work() {
                   </h6>
                   <h4>Husky Systers Code</h4>
                   <p>
-                    Being the President of the Technical Student club of
-                    Northeastern, I wanted to take another step in the
-                    recognition of the club.
+                    As President of Northeastern's Technical Student Club, I've
+                    initiated our digital presence with a dedicated website.
+                    This platform will centralize club information, showcase
+                    past and upcoming events, and offer direct messaging for
+                    seamless communication.
                   </p>
                   <div className="btn-bar">
                     <div
                       className="px-btn px-btn-theme px_modal"
-                      // onClick={() => setShowModal(3)}
+                      onClick={() =>
+                        redirectToGitHubRepo(projectDetails[2].githubRepoUrl)
+                      }
                     >
                       View Project{" "}
                     </div>
